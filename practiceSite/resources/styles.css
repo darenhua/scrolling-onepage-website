@@ -3,4 +3,129 @@ html{
     padding:0;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
+    text-align:center;
 }
+
+.container{
+    border: 1px solid black;
+    display: block;
+}
+
+#nav-ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+    top:0px;
+    width:100%;
+}
+
+#nav-ul a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+#nav-ul li{
+    float:left;
+    border-right: 1px solid #bbb;
+}
+
+#nav-ul a:hover{
+    background-color: #111;
+}
+
+#contact-list{
+    border-right: none;
+}
+
+#nav-ul #logo-link{
+    padding:5px;
+}
+
+img{
+    max-width: 20px;
+}
+
+#navbar{
+    height: 50px;
+}
+
+#header-container{
+    width:200px;
+    height: 100px;
+    padding:5px;
+    margin:10px 100px 10px 350px;
+    text-align: right;
+    background-image: linear-gradient(to right, rgba(0, 136, 255, 0.5), rgba(0, 255, 238, 0.5));
+    border-radius:5%;
+}
+
+#full-header{
+    background-size: cover;
+    height:300px;
+    background-image: url('images/photo-of-trees-across-mountains-2693529.jpg');
+}
+
+#header-bio{
+    font-size:12px;
+}
+
+#home div{
+    height: 350px;
+    width:auto;
+}
+
+.picture-background1{
+    background-image: linear-gradient(to top, rgba(255, 30, 0, 0.6), rgba(255, 212, 187, 0.768));
+}
+
+.picture-background1 h2{
+    margin:0 auto;
+    padding-top:15%;
+    padding-left:10px;
+    padding-right:10px;
+    background-image: linear-gradient(to top, rgba(179, 255, 0, 0.7), rgba(255, 230, 0, 0.768));
+    border-radius:5%;
+    width:50%;
+    height:50%;
+    position:relative;
+    top:50px;
+    font-size:30px
+}
+
+.picture-background2{
+    background-image: linear-gradient(to bottom, rgba(255, 30, 0, 0.7), rgba(255, 212, 187, 0.768));
+}
+
+.picture-background2 h2{
+    margin:0 auto;
+    padding-top:55px;
+    padding-left:10px;
+    padding-right:10px;
+    background-image: linear-gradient(to top, rgba(93, 0, 255, 0.5), rgba(255, 230, 0, 0.768));
+    border-radius:50%;
+    width:50%;
+    height:50%;
+    position:relative;
+    top:50px;
+    font-size:50px
+}
+
+.picture-background3{
+    background-image: linear-gradient(to top, rgba(223, 32, 32, 0.7), rgba(255, 185, 145, 0.768));
+}
+
+.picture-background3 h2{
+    margin:0 auto;
+    padding-top:50px;
+    background-image: linear-gradient(to top, rgba(0, 136, 255, 0.5), rgba(243, 53, 69, 0.768));
+    width:150px;
+    height:300px;
+    font-size:50px;
+}
+
