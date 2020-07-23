@@ -129,3 +129,32 @@ img{
     font-size:50px;
 }
 
+
+.grey-background{
+    background-color:grey;
+}
+
+.grey-background h2{
+    margin:0 auto;
+}
+.grey-background p{
+    margin:0;
+}
+
+.red-background{
+    background-color:red;
+}
+
+.block-container{
+    float:left;
+    width:30%;
+    padding:10px;
+}
+
+.clear-floats{
+    clear:both;
+}
+
+footer{
+    background-color:gray;
+}
